@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.background_image{
+    background-image: url(pexels-rpnickson-2559941.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cover_div{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.686);    
+}
+
+.outer_navbar_div{
+    height: 6.5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.outer_navbar_div:hover{
+    background-color: rgba(0, 0, 0, 0.235);
+    transition: 0.6s;
+}
+
+.nav_logo_elements{
+    width: 150px;
+    height: 40px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_logo_elements a{
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+}
+
+.nav_list_outer_elements{
+    width: 1100px;
+    height: 40px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_list_outer_elements a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.nav_list_outer_elements a:hover{
+    text-decoration: underline;
+    color: #9fd7a4;
+    transition: 0.5s;
+}
+
+.nav_list_elements{
+    width: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+/* navbar ended */
+
+/* about me content started */
+
+.projects_outer_1{
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.projects_heading_div{
+  width: 700px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects_heading{
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.projects_heading p{
+  color: #9fd7a4;
+  font-size: 70px;
+  font-family: 'Playfair Display', serif;
+}
+
+.projects_heading_text{
+  width: 500px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.projects_heading_text p{
+  text-align: center;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 20px;
+  line-height: 1.4;
+  color: white;
+  font-weight: 500;
+}
+
+
+
+
+.projects_outer_2{
+  height: 630px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.projects_outer_cards{
+  width: 32.2vw;
+  height: 300px;
+  gap: 20px;
+  background-color: yellow;
+  border-radius: 15px;
+}
+
+.project_1{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(amazon_project.png);
+}
+
+.project_2{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(tic_tac_toe_project.png);
+}
+
+.project_3{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(stone_paper_scissors_project.png);
+}
+
+.project_4{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(thetutor_project.png);
+}
+
+.project_5{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(tic_tac_toe_project.png);
+}
+
+.project_6{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(tic_tac_toe_project.png);
+}

@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+  font-family: Arial, sans-serif;
+}
+
 .background_image{
     background-image: url(pexels-rpnickson-2559941.jpg);
     background-size: cover;
@@ -15,7 +19,7 @@
 }
 
 .outer_navbar_div{
-    height: 70px;
+    height: 6.5vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -58,6 +62,8 @@
 
 .nav_list_outer_elements a:hover{
     text-decoration: underline;
+    color: #9fd7a4;
+    transition: 0.5s;
 }
 
 .nav_list_elements{
@@ -85,14 +91,14 @@
 }
 
 .about_me_photo_outer{
-    width: 350px;
-    height: 350px;
-    margin-left: 70px;
+    width: 300px;
+    height: 300px;
+    margin-left: 200px;
 }
 
 .about_me_photo{
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
     border: 8px solid white;
     border-radius: 100%;
     background-image: url(meet_profile_photo.jpg);
@@ -138,7 +144,7 @@
 }
 
 .about_me_resume_button {
-    margin-top: 90px;
+  margin-top: 90px;
   display: inline-block;
   background-color: transparent; /* Your original color */
   border: 2px solid white;
@@ -209,6 +215,342 @@
   }
 }
 
-.about_me_description_1 p,.about_me_tagline p,.about_me_resume_button,.about_me_description_2 p,.about_me_photo,.outer_navbar_div{
+.about_me_description_1 p,.about_me_tagline p,.about_me_description_2 p{
   animation: fadeInUp 1.5s ease-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.skill_outer_content_1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.skill_photo_outer{
+    width: 200px;
+    height: 200px;
+}
+
+.skill_photo{
+    width: 200px;
+    height: 200px;
+    border: 6px solid white;
+    border-radius: 100%;
+    background-image: url(meet_profile_photo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.skill_text_outer{
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.skill_tagline{
+    margin-top: 90px;
+}
+
+.skill_tagline p{
+    font-size: 60px;
+    color: white;
+    font-weight: 700;
+    font-family: 'Open Sans';
+}
+
+.skill_description_1{
+    text-align: end;
+    padding-top: 15px;
+}
+
+.skill_description_1 p{
+    font-size: 40px;
+    color: white;
+    font-weight: 500;
+    font-family: 'Inter';
+}
+
+.skill_resume_button {
+  margin-top: 90px;
+  display: inline-block;
+  background-color: transparent; /* Your original color */
+  border: 2px solid white;
+  color: #fff;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+  text-decoration: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.skill_resume_button:hover {
+  background-color: rgba(255, 255, 255, 0.509);
+  transform: translateY(-3px);
+  box-shadow: 0 0 10px rgba(243, 157, 39, 0.6), 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.skill_outer_content_2{
+    height: 350px;
+}
+
+.skill_description_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skill_description_2 p{
+    font-size: 32px;
+    color: white;
+    font-weight: 500;
+    font-family: 'sans-serif';
+}
+
+.skill_description_2_paragraph_1{
+    width: 80vw;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill_description_2_paragraph_2{
+    width: 80vw;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.skill_description_1 p,.skill_tagline p,.skill_description_2 p{
+  animation: fadeInUp 1.5s ease-out;
+}
+
+.tree {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.root {
+  background-color: #e8f5e9;
+  border: 2px solid #4CAF50;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: bold;
+  z-index: 2;
+}
+
+/* This holds both the vertical and horizontal lines with no spacing */
+.line-connector {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+}
+
+.vertical-line {
+  width: 2px;
+  height: 60px;
+  background-color: #9fd7a4;
+  padding: 0;
+  margin: 0;
+}
+
+.horizontal-line {
+  width: 924px;
+  border-bottom: 4px solid #9fd7a4;
+  background-color: #9fd7a4;
+  padding: 0;
+  margin: 0;
+}
+
+.branches {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1150px;
+  margin-top: 0;
+}
+
+.branch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+}
+
+.branch .vertical-line {
+  width: 4px;
+  height: 40px;
+  background-color: #9fd7a4;
+}
+
+.node {
+  margin-top: 10px;
+  background-color: #e8f5e9;
+  border: 2px solid #4CAF50;
+  padding: 8px 20px;
+  border-radius: 6px;
+  font-weight: bold;
+  white-space: nowrap;
+  /* Reset box-shadow to none by default */
+  box-shadow: none;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  filter: brightness(1);
+}
+
+.node:hover{
+  transition: transform 0.3s ease, filter 0.3s ease;
+  background-color: #9fd7a4;
+}
+
+.sub-branches {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 12px;
+  padding: 0 10px;
+}
+
+.sub-node {
+  background-color: #e8f5e9;
+  border: 2px solid #4CAF50;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  white-space: nowrap;
+  font-weight: normal;
+  /* Reset box-shadow to none by default */
+  box-shadow: none;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  filter: brightness(1);
+  animation: fadeInUp 1.5s ease-out;
+}
+
+/* Default: horizontal pills (already defined earlier) */
+.sub-branches {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 12px;
+  padding: 0 10px;
+}
+
+/* Override for vertical stacking */
+.sub-branches.vertical-branch {
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+/* Default styles for vertical line */
+.vertical-line {
+  width: 4px;
+  height: 60px; /* Default height */
+  background-color: #9fd7a4;
+}
+
+/* Extend vertical line height for selected branches */
+.branch.vertical-line-extended .vertical-line {
+  height: 300px; /* Adjust as needed for longer line */
+}
+
+/* Pulse glow animation */
+@keyframes pulseGlow {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255,255,255,0);
+  }
+  50% {
+    box-shadow: 0 0 3px 1.5px rgba(255,255,255, 0.15);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(255,255,255,0);
+  }
+}
+
+.node:hover, .sub-node:hover {
+  animation: pulseGlow 1s ease forwards;
+  transform: translateY(-2px) scale(1.015);
+  filter: brightness(1.05);
+  cursor: pointer;
+}
+
+
+.show_about_me_1{
+    display: flex;
+    transition: 2s;
+}
+
+.show_about_me_2{
+    display: unset;
+    transition: 2s;
+}
+
+.show_skill{
+    display: none;
+    transition: 2s;
 }
