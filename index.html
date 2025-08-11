@@ -7,6 +7,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body class="background_image">
@@ -22,7 +24,8 @@
                         href="#">Skills</a></div>
                 <div class="nav_list_elements" onclick="show_projects()"><a class="for_active_option"
                         href="#">Projects</a></div>
-                <div class="nav_list_elements"><a class="for_active_option" href="resume.html">Resume</a></div>
+                <div class="nav_list_elements" onclick="show_resume()"><a class="for_active_option" href="#">Resume</a>
+                </div>
                 <div class="nav_list_elements"><a class="for_active_option" href="contact_me.html">Contact Me</a></div>
             </div>
         </div>
@@ -39,7 +42,7 @@
                     <div class="about_me_description_1">
                         <p><i>- A Web Developer.</i></p>
                     </div>
-                    <a href="" class="about_me_resume_button">
+                    <a href="#" onclick="show_resume()" class="about_me_resume_button">
                         More About Me
                     </a>
                 </div>
@@ -311,6 +314,192 @@
                                     <div>Explore</div>
                                     <div class="explore_arrow"><img src="explore arrow.png"></div>
                                 </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <div class="resume" id="show_resume">
+            <div class="resume_main">
+                <div class="resume_section_1">
+                    <div class="resume_section_1_inner">
+                        <div onclick="show_overview()"><img src="resume_basic_details.png" alt="">
+                            <p>Overview</p>
+                        </div>
+                        <div onclick="show_experience()"><img src="resume_experience.png" alt="">
+                            <p>Experience</p>
+                        </div>
+                        <div onclick="show_skills()"><img src="resume_skills.png" alt="">
+                            <p>Skills</p>
+                        </div>
+                        <div onclick="show_education()"><img style="width: 40px;" src="resume_education.png" alt="">
+                            <p>Education</p>
+                        </div>
+                        <div onclick="show_contact_me()"><img src="resume_contact_me.png" alt="">
+                            <p>Contact Me</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="resume_section_2">
+                    <div class="profile_card">
+                        <div class="profile_top">
+                            <img src="meet_profile_photo.jpg" alt="Profile">
+                        </div>
+                        <div class="profile_info">
+                            <h2>Meet Moradiya</h2>
+                            <div class="social_icons">
+                                <i class="fab fa-github"></i>
+                                <i class="fab fa-twitter"></i>
+                                <i class="fab fa-whatsapp"></i>
+                                <i class="fab fa-facebook"></i>
+                                <i class="fab fa-instagram"></i>
+                            </div>
+                            <div class="profile_buttons">
+                                <button>Download CV</button>
+                                <button>Contact Me</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="resume_section_3">
+                    <div class="resume_basic_details_outer_div" id="resume_basic_details_outer_div">
+                        <div class="basic_details_heading">
+                            <h1>MEET MORADIYA</h1>
+                            <p>Full Stack Web Developer</p>
+                        </div>
+                        <div class="basic_details_para">
+                            <p>A Full Stack Web Developer passionate about crafting seamless, responsive,
+                                and scalable
+                                web applications. Skilled in both frontend and backend technologies, with a focus on
+                                writing clean code and delivering smooth user experiences.<br><br>
+
+                                Experienced in building dynamic websites and web apps using HTML, CSS, JavaScript, PHP,
+                                Laravel, MySQL, and React. From designing intuitive interfaces to developing secure
+                                backend systems, every project is an opportunity to bring ideas to life.<br><br>
+
+                                Continuously exploring new tools and frameworks to stay ahead in the ever-evolving tech
+                                landscape. Always open to exciting opportunities, collaborations, and learning from
+                                real-world challenges.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="experience_outer_div" id="experience_outer_div">
+                        <div class="experience_heading_div">
+                            <h1>Work Experience</h1>
+                        </div>
+                        <div class="experience_details_div">
+                            <div class="experience_details_inner_div experience_details_inner_div_1">
+                                <h2>College Projects Experience</h2>
+                                <p>- Experience of Skill developing projects<br><br>
+                                    - Developed multiple projects with HTML, CSS, JS, Python, more to improve skills and
+                                    efficiency.<br><br>
+                                    - By developing these project I Gained practical experience</p>
+                            </div>
+                            <div class="experience_details_inner_div experience_details_inner_div_2">
+                                <h2>Hackathons Experience</h2>
+                                <p>
+                                    - Currently competition in Smart Gujarat hackthon<br><br>
+                                    - Solving Real-time problem under the guidance of an experienced
+                                    mentor.<br><br>
+                                    - Building a crawler-based project, inspired by the Google technology.<br><br>
+                                    - Enhancing skills in teamwork, innovation, and hands-on technical
+                                    development.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills_outer_div" id="skills_outer_div">
+                        <div class="skill_outer">
+                            <div class="skill_heading">
+                                <h1>SKILLS</h1>
+                            </div>
+                            <div class="skill_details">
+                                <p>
+                                    - Front End Development<br><br>
+                                    - Back End Development<br><br>
+                                    - Basic Skills Of Web Design<br><br>
+                                    - Microsoft Office<br><br>
+                                    - Record Management<br><br>
+                                    - Typescript<br><br>
+                                    - English Communication
+                                </p>
+                            </div>
+                        </div>
+                        <div class="tools_outer">
+                            <div class="tools_heading">
+                                <h1>TOOLS</h1>
+                            </div>
+                            <div class="tools_details">
+                                <p>
+                                    - Javascript (Fluent)<br><br>
+                                    - Python, PHP (Basic)<br><br>
+                                    - HTML, CSS (Fluent)<br><br>
+                                    - MySQL (intermediate)<br><br>
+                                    - Figma (intermediate)<br><br>
+                                    - AI Tools (Fluent)
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="education_outer_div" id="education_outer_div">
+                        <h1>Education</h1>
+                        <div class="education_ssc">
+                            <div class="ssc_heading">
+                                <h2>SSC Pass Out [2020-2021]</h2>
+                                <p>G.G.Zadafiya Vidhyalay</p>
+                                <p><b>Address:-</b><a href="https://share.google/ZMB1k1q06G6sjCKbA">Surat, Gujarat </a>
+                                </p>
+                                <p><b>PCT:-</b> 66.33%</p>
+                            </div>
+                        </div>
+                        <div class="education_hsc">
+                            <h2>HSC Pass Out [2022-2023]</h2>
+                            <p>St. Mary's High School</p>
+                            <p><b>Address:- </b><a href="https://stmarybhavnagar.org/">Bhavnagar, Gujarat </a>
+                            </p>
+                            <p><b>PCT:- </b>70.71%</p>
+                        </div>
+                        <div class="education_graduation">
+                            <h2>Persuing Bachelor's of Computer Application [2023-2026]</h2>
+                            <p>Sarvajanik College of Commerce and Computer Application</p>
+                            <p><b>Address:-</b><a href="https://www.sccca.ac.in/">Surat, Gujarat </a>
+                            </p>
+                            <p><b>Current CGPA:- </b>7.55</p>
+                            <p><b>Current SGPA:- </b>8.18</p>
+                        </div>
+                    </div>
+                    <div class="contact_me_resume_outer_div" id="contact_me_resume_outer_div">
+                        <div class="number_outer">
+                            <div>
+                                <h1>Contact</h1>
+                            </div>
+                            <div>
+                                <p>+91 9824375878</p>
+                            </div>
+                        </div>
+                        <div class="email_outer">
+                            <div>
+                                <h1>Email</h1>
+                            </div>
+                            <div>
+                                <p>meetmoradiya176@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="address_outer">
+                            <div>
+                                <h1>Address</h1>
+                            </div>
+                            <div>
+                                <p>395004-Surat, Gujarat, India.</p>
                             </div>
                         </div>
                     </div>
