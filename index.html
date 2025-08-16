@@ -26,7 +26,8 @@
                         href="#">Projects</a></div>
                 <div class="nav_list_elements" onclick="show_resume()"><a class="for_active_option" href="#">Resume</a>
                 </div>
-                <div class="nav_list_elements"><a class="for_active_option" href="contact_me.html">Contact Me</a></div>
+                <div class="nav_list_elements" onclick="show_contact_me()"><a class="for_active_option" href="#">Contact
+                        Me</a></div>
             </div>
         </div>
 
@@ -343,7 +344,7 @@
                         <div onclick="show_education()"><img style="width: 40px;" src="resume_education.png" alt="">
                             <p>Education</p>
                         </div>
-                        <div onclick="show_contact_me()"><img src="resume_contact_me.png" alt="">
+                        <div onclick="show_contact_me_resume()"><img src="resume_contact_me.png" alt="">
                             <p>Contact Me</p>
                         </div>
                     </div>
@@ -361,10 +362,11 @@
                                 <i class="fab fa-whatsapp"></i>
                                 <i class="fab fa-facebook"></i>
                                 <i class="fab fa-instagram"></i>
+                                <i class="fa-brands fa-linkedin"></i>
                             </div>
                             <div class="profile_buttons">
                                 <button>Download CV</button>
-                                <button>Contact Me</button>
+                                <button onclick="show_contact_me()">Contact Me</button>
                             </div>
                         </div>
                     </div>
@@ -504,6 +506,68 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+
+        <div class="contact_me_outer_section" id="show_contact_me">
+            <div class="form_background">
+                <div class="form_heading_outer">
+                    <h1>Get In Touch</h1>
+                    <p>I'm currently open for new opportunities. Feel free to send me a message!</p>
+                </div>
+                <form>
+                    <div class="form_main_contant_outer">
+                        <div class="form_main_contant_inputs">
+                            <div class="form_name_field_outer">
+                                <label for="name">
+                                    <p>Name</p>
+                                </label>
+                                <input type="text" name="name">
+                            </div>
+                            <div class="form_email_field_outer">
+                                <label for="email">
+                                    <p>Email</p>
+                                </label>
+                                <input type="text" name="email">
+                            </div>
+                            <div class="form_message_field_outer">
+                                <label for="message">
+                                    <p>Messgae</p>
+                                </label>
+                                <textarea name="message"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="form_main_contant_details">
+                            <div class="email_details_div">
+                                <div class="email_icon"><i class="fa-regular fa-envelope fa-xl"></i></div>
+                                <div class="email_text">
+                                    <h3>Email</h3>
+                                    <p>meetmoradiya176@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="phone_details_div">
+                                <div class="phone_icon"><i class="fa-solid fa-phone fa-xl"></i></div>
+                                <div class="phone_text">
+                                    <h3>Phone</h3>
+                                    <p>+91 9824375878</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form_button_outer">
+                        <div class="send_button">
+                            <button>Send Message</button>
+                        </div>
+                        <div class="social_media_div">
+                            <p>Find Me on Social Media</p>
+                            <i class="fab fa-github"><a href=""></a></i>
+                            <i class="fab fa-twitter"><a href=""></a></i>
+                            <i class="fa-brands fa-linkedin"><a href=""></a></i>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
