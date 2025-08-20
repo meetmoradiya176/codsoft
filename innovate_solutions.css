@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.outer_navbar{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.outer_logo{
+    height: 50px;
+    width: 350px;
+    margin-left: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer_logo p{
+    font-size: 30px;
+    color: black;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+.outer_logo p:hover{
+    color: #D9534F;
+    transition: 0.5s;
+}
+
+.outer_nav_links{
+    height: 50px;
+    width: 900px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.outer_nav_links a{
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(112, 112, 112);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.outer_nav_links a:hover{
+    color: black;
+    transition: 0.3s;
+}
+
+
+.main_content_div{
+    margin-top: 70px;
+    height: 800px;
+    background-color: yellowgreen;
+    background-image: linear-gradient(rgba(248, 249, 250, 0.8), rgba(248, 249, 250, 0.8)), url('https://images.unsplash.com/photo-1542435503-956c469947f6?q=80&w=1974&auto=format&fit=crop');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main_content_div h1{
+    width: 800px;
+    font-size: 56px;
+    font-weight: 700;
+    padding: 15px;
+    text-align: center;
+}
+
+.main_content_div p{
+    width: 650px;
+    font-size: 20px;
+    padding: 10px 0px 40px 0px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.main_content_div button{
+    font-size: 20px;
+    padding: 15px 40px;
+    font-weight: 700;
+    text-align: center;
+    border: none;
+    border-radius: 100px;
+    color: white;
+    background-color: #D9534F;
+    transition: 0.5s;
+}
+
+.main_content_div button:hover{
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+.wwa_section{
+    padding: 80px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #e8e8e8;
+}
+
+.wwa_section h1{
+    font-size: 40px;
+}
+
+.wwa_details{
+    padding: 60px 0px 25px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wwa_details_text{
+    padding-left: 100px;
+}
+
+.wwa_details_text h3{
+    width: 630px;
+    padding: 15px 0px;
+    font-size: 32px;
+    color: #D9534F;
+}
+
+.wwa_details_text p{
+    width: 630px;
+    font-size: 17px;
+    font-size: 20px;
+    color: black;
+}
+
+.wwa_details_image{
+    padding: 0px 70px;
+}
+
+.wwa_details_image img{
+    width: 570px;
+    height: 370px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.wwa_details_image img:hover{
+    transform: scale(1.03);
+}
+
+
+
+
+
+
+
+
+
+.wwd_section{
+    padding: 80px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #e0e4e4;
+}
+
+.wwd_section h1{
+    font-size: 40px;
+}
+
+.wwd_cards{
+    width: 100%;
+    padding: 60px 0px 25px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wwd_card{
+    padding: 10px 50px 60px 50px;
+    margin: 0px 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: 0.4s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+.wwd_card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(217, 83, 79, 0.4);
+}
+
+.card1{
+    padding: 18px 50px 68px 50px;
+}
+
+.card_icon{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    font-size: 32px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #D9534F;
+}
+
+.card_hrading p{
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.card_desc{
+    width: 300px;
+    font-size: 16px;
+    text-align: center;
+    color: rgb(81, 81, 81);
+}
