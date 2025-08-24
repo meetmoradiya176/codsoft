@@ -13,6 +13,7 @@ body{
     left: 0px;
     right: 0px;
     height: 70px;
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.305);
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
@@ -243,4 +244,142 @@ body{
     font-size: 16px;
     text-align: center;
     color: rgb(81, 81, 81);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.orw_section{
+    padding: 80px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #d3dbdb;
+}
+
+.orw_section h1{
+    font-size: 40px;
+}
+
+.orw_cards{
+    width: 1280px;
+    padding: 60px 0px 25px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.orw_card{
+    width: 280px;
+    height: 230px;
+    margin: 20px 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    transition: 0.4s;
+}
+
+.orw_card img{
+    width: 280px;
+    height: 230px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.orw_card:hover{
+    transform: scale(1.06);
+}
+
+
+
+
+
+
+
+
+
+
+.git_section{
+    padding: 40px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(223, 223, 223);
+}
+
+.git_form{
+    border-radius: 20px;
+    box-shadow: 1px 1px 30px rgba(54, 54, 54, 0.182);
+    background-color: rgb(223, 223, 223);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.git_form h1{
+    padding: 40px 0px 0px 0px;
+    font-size: 35px;
+}
+
+.git_form p{
+    font-size: 16px;
+    padding: 15px 0px 35px 0px;
+}
+
+.git_form input{
+    border-radius: 7px;
+    padding: 15px 500px 15px 10px;
+    margin: 15px 35px;
+    border: 1px solid rgba(0, 0, 0, 0.311);
+}
+
+.git_form button{
+    font-size: 18px;
+    font-weight: 700;
+    padding: 15px 278px;
+    border-radius: 7px;
+    margin: 20px 0px;
+    border: none;
+    color: white;
+    background-color: #D9534F;
+    transition: 0.3s;
+}
+
+.git_form button:hover{
+    transform: translateY(-3px);
+    background-color: #b43632;
+}
+
+
+
+
+
+
+
+
+
+.footer{
+    padding: 40px 0px;
+    border-top: 2px solid rgba(30, 30, 30, 0.223);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d3dbdb;
 }
