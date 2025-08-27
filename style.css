@@ -604,7 +604,7 @@ body {
 }
 
 .projects_heading p{
-  color: #8a8a8a;
+  color: #c2c2c2;
   font-size: 70px;
   font-family: 'Playfair Display', serif;
 }
@@ -1267,11 +1267,6 @@ hr{
   box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.542);
 }
 
-
-
-
-
-
 .tools_main_heading{
   padding: 15px 10px;
   color: white;
@@ -1311,6 +1306,31 @@ hr{
   border-radius: 100px;
   background-color: rgb(23, 23, 23);
   box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.542);
+}
+
+.skill_level_50 div{
+  width: 50%;
+}
+.skill_level_75 div{
+  width: 75%;
+}
+.skill_level_70 div{
+  width: 70%;
+}
+.skill_level_80 div{
+  width: 80%;
+}
+.skill_level_65 div{
+  width: 65%;
+}
+.skill_level_45 div{
+  width: 45%;
+}
+.skill_level_60 div{
+  width: 60%;
+}
+.skill_level_90 div{
+  width: 90%;
 }
 
 
